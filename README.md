@@ -84,7 +84,7 @@ The pipeline is organized into two stages: **Knowledge Pipeline & Foundation (St
     
     _Audit Validation:_ **Score: 1.0 (PASSED, 0 broken references)**
     
-- **[Step D: Graph Engine Deployment (Neo4j & neosemantics)](./Step_C_Integration_Binding/)**
+- **[Step D: Graph Engine Deployment (Neo4j & neosemantics)](./Step_D_Graph_Engine_Setup/)**
     Deploys the schema layer (TBox: 380 nodes, 532 relationships) using `neosemantics (n10s)` and instantiates the compiled ABox instance data. Replaces RDB relational JOIN overhead with constant-time Index-Free Adjacency traversals.
 
 ### Part 2: Runtime Governance Validation (Step E)
