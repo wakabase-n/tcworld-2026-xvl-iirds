@@ -27,7 +27,7 @@ Plaintext
 The validation environment can be fully reproduced in standard browsers in minutes via Google Notebook:
 
 1. **Initialize Notebook:**
-    Navigate to [Google Notebook](https://notebooklm.google.com/?utm_source=gemini) and create a new project notebook.
+    Navigate to [Google Notebook](https://notebook.google.com/) and create a new project notebook.
 2. **Mount Dual-Source Grounding Payloads:**
     Drag and drop the two data assets located in `01_Input/` into the notebook sources pane:
     - `Source1_PoC_manual_AtomicData.txt` (Narrative procedural text)
@@ -72,4 +72,4 @@ This confirms that structural graph constraints prevent generative models from s
 ### ③ Harmonized Dual-Track Delivery: Machine Execution (M2M) and Human Guidance (HMI)
 A single knowledge graph substrate serves both deterministic machine automation and flexible natural language assistance without data duplication:
 
-![](Pasted%20image%2020260926103202.png)
+<img width="1565" height="576" alt="image" src="https://github.com/user-attachments/assets/3c1c5f8f-43fb-4619-8f04-f7302bb4a488" />
