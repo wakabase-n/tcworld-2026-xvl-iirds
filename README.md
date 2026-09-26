@@ -118,7 +118,7 @@ _Benchmark Result:_ **10/10 PASSED**
 
 Verify semantic governance in under five minutes directly within your browser via Google Notebook (formerly NotebookLM):
 
-1. Access [Google Notebook](https://www.google.com/search?q=https://notebooklm.google.com/&utm_source=gemini) and create a new project notebook.
+1. Access [Google Notebook](https://notebook.google.com/) and create a new project notebook.
     
 2. Upload the two provided dataset files from `Step_E_Runtime_Governance_Validation/02_GoogleNotebook_ZeroSetup/inputs/`:
     - `Source1_PoC_manual_AtomicData.txt` (Narrative procedural text)
