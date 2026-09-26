@@ -31,7 +31,7 @@ Step_C_Integration_Binding/
 
 ## 3. Execution Pipeline
 
-![](Pasted%20image%2020260926100756.png)
+<img width="1027" height="912" alt="image" src="https://github.com/user-attachments/assets/302d5663-50be-45bc-afe7-b7dac668f2dc" />
 
 ### Phase 1: Execution of the Semantic Integration Prompt
 Processes the SKOS scheme and iiRDS atomic step records through the integration prompt (`02_Prompt/prompt_integration_binding.md`) using strict mapping rules:
@@ -92,7 +92,7 @@ Rather than generating speculative concepts, the pipeline assigns `skos_concept_
 
 The completion of Step C links four functional layers into a continuous digital thread:
 
-![](Pasted%20image%2020260926101336.png)
+<img width="1526" height="835" alt="image" src="https://github.com/user-attachments/assets/4a93a7c7-e59d-401a-8c7b-3f46525e9102" />
 
 ## 6. Summary of Knowledge Pipeline & Foundation (Steps A–C)
 
