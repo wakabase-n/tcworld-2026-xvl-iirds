@@ -69,7 +69,7 @@ The pipeline is organized into two stages: **Knowledge Pipeline & Foundation (St
 
 ### Part 1: Knowledge Pipeline & Foundation (Steps A–D)
 
-- **Step A: sBOM Transformation to SKOS Concept Scheme()**
+- **Step A: sBOM Transformation to SKOS Concept Scheme(./Step_A_sBOM_to_SKOS/)**
     Converts flat CSV spare parts catalogs into a W3C-compliant SKOS Concept Scheme (JSON-LD). Automatically derives `skos:altLabel` aliases to capture field jargon and establishes `skos:broader` hierarchical links to 3D geometry nodes.
     
     _Audit Validation:_ **Score: 1.0 (PASSED)**
