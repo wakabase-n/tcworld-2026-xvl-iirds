@@ -74,17 +74,17 @@ The pipeline is organized into two stages: **Knowledge Pipeline & Foundation (St
     
     _Audit Validation:_ **Score: 1.0 (PASSED)**
     
-- **Step B: Manual Decomposition into iiRDS Atomic Steps()**
+- **[Step B: Manual Decomposition into iiRDS Atomic Steps](./Step_B_Manual_to_iiRDS/)**
     Disassembles unstructured documentation into self-contained "one-operation, one-assertion" execution nodes. Structures operator entitlement constraints (`iirds:TargetAudience`), sensor prerequisites (`ext:PhysicalState`), and prohibition directives (`prohibited_action`).
     
     _Audit Validation:_ **Score: 1.0 (PASSED)**
     
-- **Step C: Multi-Modal Semantic Binding via SKOS Hub]()**
+- **[Step C: Multi-Modal Semantic Binding via SKOS Hub](./Step_C_Integration_Binding/)**
     Employs the SKOS concept dictionary as a semantic hub to resolve textual part mentions into qualified URIs (`ex:Part/FLT-X200-HD`) and binds procedural actions directly to 3D geometric node IDs (`COMP-HOUSING-01`) without mutating source assets.
     
     _Audit Validation:_ **Score: 1.0 (PASSED, 0 broken references)**
     
-- **Step D: Graph Engine Deployment (Neo4j & neosemantics)]()**
+- **[Step D: Graph Engine Deployment (Neo4j & neosemantics)](./Step_C_Integration_Binding/)**
     Deploys the schema layer (TBox: 380 nodes, 532 relationships) using `neosemantics (n10s)` and instantiates the compiled ABox instance data. Replaces RDB relational JOIN overhead with constant-time Index-Free Adjacency traversals.
 
 ### Part 2: Runtime Governance Validation (Step E)
