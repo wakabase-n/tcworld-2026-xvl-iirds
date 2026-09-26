@@ -218,6 +218,6 @@ If you reference, build upon, or utilize this architecture in your research, aca
   title        = {Bridging 3D Geometry and Standardized Knowledge Graphs: Deterministic Safety Interlocks and Dynamic Guidance via XVL and iiRDS},
   year         = {2026},
   publisher    = {GitHub},
-  howpublished = {\url{[https://github.com/wakabase-n/tcworld-2026-xvl-iirds](https://github.com/wakabase-n/tcworld-2026-xvl-iirds)}},
+　howpublished = {\url{https://github.com/wakabase-n/tcworld-2026-xvl-iirds}},
   note         = {Presented at tcworld conference 2026 / JTCA TC Symposium 2026}
 }
