@@ -118,7 +118,7 @@ _Benchmark Result:_ **10/10 PASSED**
 
 Verify semantic governance in under five minutes directly within your browser via Google Notebook (formerly NotebookLM):
 
-1. Access [Google Notebook](https://notebook.google.com/) and create a new project notebook.
+1. Access <a href="https://notebook.google.com/" target="_blank">Google Notebook</a> and create a new project notebook.
     
 2. Upload the two provided dataset files from `Step_E_Runtime_Governance_Validation/02_GoogleNotebook_ZeroSetup/inputs/`:
     - `Source1_PoC_manual_AtomicData.txt` (Narrative procedural text)
@@ -145,15 +145,15 @@ Access the deterministic execution scripts and batch runner configured for integ
 
 For architectural rationales, theoretical foundations, and implementation methodologies, consult the accompanying three-part article series:
 
-1. **Part 1: [The Boundary between Dynamic Guidance and Machine Safety: Defining Constitutional Controls for AI in Technical Documentation](https://www.linkedin.com/pulse/boundary-between-dynamic-guidance-machine-safety-defining-%E5%A4%8F%E6%A8%B9-%E8%8B%A5%E6%9E%97-jxmdf/?utm_source=gemini)**
+1. **Part 1: <a href="https://www.linkedin.com/pulse/boundary-between-dynamic-guidance-machine-safety-defining-%E5%A4%8F%E6%A8%B9-%E8%8B%A5%E6%9E%97-jxmdf/?utm_source=gemini" target="_blank">The Boundary between Dynamic Guidance and Machine Safety: Defining Constitutional Controls for AI in Technical Documentation</a>**
     
     - Defining the demarcation line between dynamic user assistance and deterministic machine safety via constitutional graph controls.
         
-2. **Part 2: [Mediating the Boundary between Reality and Inference: What Layer Bridges the Physical-Digital Gap?](https://www.linkedin.com/pulse/mediating-boundary-between-reality-inference-what-layer-%E5%A4%8F%E6%A8%B9-%E8%8B%A5%E6%9E%97-ms4jc/?utm_source=gemini)**
+2. **Part 2: <a href="https://www.linkedin.com/pulse/mediating-boundary-between-reality-inference-what-layer-%E5%A4%8F%E6%A8%B9-%E8%8B%A5%E6%9E%97-ms4jc/?utm_source=gemini" target="_blank">Mediating the Boundary between Reality and Inference: What Layer Bridges the Physical-Digital Gap?</a>**
     
     - Reconciling physical IoT telemetry with generative inference through a decoupled, three-tier architecture (Data, Evaluation, Action).
         
-3. **Part 3: [From Document-Centric IA to Asset-Aligned Determinism: Implementing Knowledge Graphs with iiRDS and Neo4j](https://www.linkedin.com/pulse/from-document-centric-ia-asset-aligned-determinism-implementing-%E5%A4%8F%E6%A8%B9-%E8%8B%A5%E6%9E%97-wntcc/?utm_source=gemini)**
+3. **Part 3: <a href="https://www.linkedin.com/pulse/from-document-centric-ia-asset-aligned-determinism-implementing-%E5%A4%8F%E6%A8%B9-%E8%8B%A5%E6%9E%97-wntcc/?utm_source=gemini" target="_blank">From Document-Centric IA to Asset-Aligned Determinism: Implementing Knowledge Graphs with iiRDS and Neo4j</a>**
     
     - Transitioning from document-centric Information Architecture to asset-aligned determinism using iiRDS, SKOS, and Neo4j.
         
