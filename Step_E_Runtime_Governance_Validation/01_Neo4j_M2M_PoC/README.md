@@ -36,7 +36,7 @@ Plaintext
 
 Simulating an industrial cyber-physical deployment, system inputs are decoupled into three independent runtime telemetry streams before parameter injection into the Cypher evaluation query:
 
-![](Pasted%20image%2020260926102440.png)
+<img width="1072" height="892" alt="image" src="https://github.com/user-attachments/assets/5b6ec656-1775-4ca7-9899-9bd177dccbba" />
 
 ## 4. Test Scenario Matrix (PoC1–PoC6)
 
