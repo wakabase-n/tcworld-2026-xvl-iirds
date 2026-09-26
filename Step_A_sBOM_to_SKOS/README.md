@@ -27,8 +27,7 @@ Step_A_sBOM_to_SKOS/
 
 ## 3. Execution Pipeline
 
-
-![](Pasted%20image%2020260926104138.png)
+<img width="1392" height="913" alt="image" src="https://github.com/user-attachments/assets/e4ced3af-cc62-41e7-aa6b-868f856c2ab6" />
 
 ### Phase 1: Execution of the Mapping-Constrained Transformation Prompt
 
@@ -87,7 +86,7 @@ While small-scale datasets can be reviewed manually, enterprise operations invol
 
 This architecture incorporates a **Human-in-the-Loop (HITL) triage model** triggered directly by the auditor's deterministic confidence score:
 
-![](Pasted%20image%2020260926105410.png)
+<img width="1605" height="867" alt="image" src="https://github.com/user-attachments/assets/7891cb52-0735-441d-bd7a-5acb0e882833" />
 
 
 - **Pass 1 (Autonomous Approval):** Score $\ge$ 0.95. Directly imported into the staging knowledge graph without human intervention (projected coverage: 80–90% of steady-state catalog ingestion).
