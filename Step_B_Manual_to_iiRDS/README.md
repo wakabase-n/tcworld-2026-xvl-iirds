@@ -30,8 +30,7 @@ Step_B_Manual_to_iiRDS/
 
 To ensure strict determinism and reproducibility, the decomposition pipeline executes across four discrete phases:
 
-![](Pasted%20image%2020260926100504.png)
-
+<img width="687" height="927" alt="image" src="https://github.com/user-attachments/assets/346a7214-701a-4f13-824d-7d61577a1f3c" />
 
 ### Phase 1: Canonical Vocabulary Specification (Whitelist Enforcement)
 Constrains output entities to formal taxonomy classes defined in the official iiRDS specification (`iiRDS_core.ttl`):
