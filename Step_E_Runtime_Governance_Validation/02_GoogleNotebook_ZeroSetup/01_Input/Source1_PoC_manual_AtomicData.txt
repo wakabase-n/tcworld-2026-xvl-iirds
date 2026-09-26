@@ -1,0 +1,248 @@
+{
+  "graph_metadata": {
+    "document_id": "MAN-HYD-2026-01",
+    "concept_scheme": "ex:Scheme/sBOM-Hydraulics",
+    "binding_status": "SUCCESS"
+  },
+  "knowledge_graph": [
+    {
+      "step_id": "STEP-001",
+      "chapter": "Chapter 1: Initial Response to Error Code E-1003 (For Machine Operators)",
+      "target_audience": "iirds:Operator",
+      "action_type": "Disassembly",
+      "description": "Prohibition of filter housing disassembly and element replacement by machine operators",
+      "prohibited_action": true,
+      "3d_node_binding": {
+        "component_id": "COMP-HOUSING-01",
+        "iri": "ex:Component/COMP-HOUSING-01"
+      },
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": []
+    },
+    {
+      "step_id": "STEP-002",
+      "chapter": "Chapter 1: Initial Response to Error Code E-1003 (For Machine Operators)",
+      "target_audience": "iirds:Operator",
+      "action_type": "Operation",
+      "description": "Maneuver the machine to a level, safe area and come to a complete stop",
+      "prohibited_action": false,
+      "3d_node_binding": null,
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": []
+    },
+    {
+      "step_id": "STEP-003",
+      "chapter": "Chapter 1: Initial Response to Error Code E-1003 (For Machine Operators)",
+      "target_audience": "iirds:Operator",
+      "action_type": "Operation",
+      "description": "Shut down the engine (turn OFF)",
+      "prohibited_action": false,
+      "3d_node_binding": null,
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": []
+    },
+    {
+      "step_id": "STEP-004",
+      "chapter": "Chapter 1: Initial Response to Error Code E-1003 (For Machine Operators)",
+      "target_audience": "iirds:Operator",
+      "action_type": "Inspection",
+      "description": "Visually inspect the perimeter of the filter housing indicated on the 3D monitoring display for external fluid leaks",
+      "prohibited_action": false,
+      "3d_node_binding": {
+        "component_id": "COMP-HOUSING-01",
+        "iri": "ex:Component/COMP-HOUSING-01"
+      },
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": []
+    },
+    {
+      "step_id": "STEP-005",
+      "chapter": "Chapter 1: Initial Response to Error Code E-1003 (For Machine Operators)",
+      "target_audience": "iirds:Operator",
+      "action_type": "Contact",
+      "description": "Immediately contact a certified service engineer, report error code E-1003 along with the machine serial/model designation (SP-X100 / SP-X200), and request on-site servicing",
+      "prohibited_action": false,
+      "3d_node_binding": null,
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": []
+    },
+    {
+      "step_id": "STEP-006",
+      "chapter": "Chapter 2: Hydraulic Filter Element Inspection & Replacement (For Service Engineers)",
+      "target_audience": "iirds:ServiceTechnician",
+      "action_type": "Depressurization",
+      "description": "Connect the specialty wrench (TOOL-A) to the drain plug and safely discharge all residual hydraulic pressure",
+      "prohibited_action": false,
+      "3d_node_binding": null,
+      "preconditions": {
+        "required_physical_states": [
+          {
+            "parameter": "ValveStatus",
+            "condition": "Closed",
+            "sensor_type": "Primary supply valve closure confirmation"
+          },
+          {
+            "parameter": "OilTemperature",
+            "condition": "<= 40°C",
+            "sensor_type": "Hydraulic oil temperature sensor"
+          },
+          {
+            "parameter": "ResidualPressure",
+            "condition": "<= 0.05 MPa",
+            "sensor_type": "Circuit residual pressure sensor"
+          }
+        ],
+        "prerequisite_tasks": [
+          "Close primary hydraulic fluid supply valve completely"
+        ]
+      },
+      "bound_supplies": [
+        {
+          "supply_type": "Tool",
+          "skos_concept_iri": null,
+          "pref_label": "Residual pressure release specialty wrench",
+          "part_number": "TOOL-A",
+          "applicable_variant": null,
+          "option_code": null,
+          "lifecycle_status": null
+        },
+        {
+          "supply_type": "PPE",
+          "skos_concept_iri": null,
+          "pref_label": "Heat- and oil-resistant protective gloves",
+          "part_number": null,
+          "applicable_variant": null,
+          "option_code": null,
+          "lifecycle_status": null
+        },
+        {
+          "supply_type": "PPE",
+          "skos_concept_iri": null,
+          "pref_label": "Safety glasses",
+          "part_number": null,
+          "applicable_variant": null,
+          "option_code": null,
+          "lifecycle_status": null
+        }
+      ]
+    },
+    {
+      "step_id": "STEP-007",
+      "chapter": "Chapter 2: Hydraulic Filter Element Inspection & Replacement (For Service Engineers)",
+      "target_audience": "iirds:ServiceTechnician",
+      "action_type": "Disassembly",
+      "description": "Remove the access cover of the filter housing",
+      "prohibited_action": false,
+      "3d_node_binding": {
+        "component_id": "COMP-HOUSING-01",
+        "iri": "ex:Component/COMP-HOUSING-01"
+      },
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": []
+    },
+    {
+      "step_id": "STEP-008",
+      "chapter": "Chapter 2: Hydraulic Filter Element Inspection & Replacement (For Service Engineers)",
+      "target_audience": "iirds:ServiceTechnician",
+      "action_type": "Disposal",
+      "description": "Safely dispose of the depleted filter element",
+      "prohibited_action": false,
+      "3d_node_binding": null,
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": []
+    },
+    {
+      "step_id": "STEP-009",
+      "chapter": "Chapter 2: Hydraulic Filter Element Inspection & Replacement (For Service Engineers)",
+      "target_audience": "iirds:ServiceTechnician",
+      "action_type": "Replacement",
+      "description": "Install the verified compatible new filter cartridge",
+      "prohibited_action": false,
+      "3d_node_binding": {
+        "component_id": "COMP-HOUSING-01",
+        "iri": "ex:Component/COMP-HOUSING-01"
+      },
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": [
+        {
+          "supply_type": "Component",
+          "skos_concept_iri": "ex:Part/FLT-STD-01",
+          "pref_label": "Standard Hydraulic Filter Element",
+          "part_number": "FLT-STD-01",
+          "applicable_variant": "ex:Variant/SP-X100",
+          "option_code": "STD",
+          "lifecycle_status": "Active"
+        },
+        {
+          "supply_type": "Component",
+          "skos_concept_iri": "ex:Part/FLT-X200-STD",
+          "pref_label": "High-Flow Standard Filter Element for SP-X200",
+          "part_number": "FLT-X200-STD",
+          "applicable_variant": "ex:Variant/SP-X200",
+          "option_code": "STD",
+          "lifecycle_status": "Active"
+        },
+        {
+          "supply_type": "Component",
+          "skos_concept_iri": "ex:Part/FLT-X200-HD",
+          "pref_label": "Heavy-Duty Hydraulic Filter Element",
+          "part_number": "FLT-X200-HD",
+          "applicable_variant": "ex:Variant/SP-X200",
+          "option_code": "Opt-HD",
+          "lifecycle_status": "Active"
+        }
+      ]
+    },
+    {
+      "step_id": "STEP-010",
+      "chapter": "Chapter 2: Hydraulic Filter Element Inspection & Replacement (For Service Engineers)",
+      "target_audience": "iirds:ServiceTechnician",
+      "action_type": "Tightening",
+      "description": "Securely torque the housing cover to the specified torque of 50 N·m",
+      "prohibited_action": false,
+      "3d_node_binding": {
+        "component_id": "COMP-HOUSING-01",
+        "iri": "ex:Component/COMP-HOUSING-01"
+      },
+      "preconditions": {
+        "required_physical_states": [],
+        "prerequisite_tasks": []
+      },
+      "bound_supplies": [
+        {
+          "supply_type": "Tool",
+          "skos_concept_iri": null,
+          "pref_label": "Calibrated torque wrench (rated for 50 N·m)",
+          "part_number": null,
+          "applicable_variant": null,
+          "option_code": null,
+          "lifecycle_status": null
+        }
+      ]
+    }
+  ]
+}
