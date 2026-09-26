@@ -1,0 +1,5 @@
+PartNumber,PartName,ComponentID,ApplicableVariant,Status,Notes
+FLT-STD-01,Standard Hydraulic Filter Element,COMP-HOUSING-01,SP-X100,Active,Standard factory replacement element (Standard Option).
+FLT-X200-STD,High-Flow Standard Filter Element,COMP-HOUSING-01,SP-X200,Active,Standard element for X200 series (Opt-STD).
+FLT-X200-HD,Heavy-Duty Hydraulic Filter Element,COMP-HOUSING-01,SP-X200,Active,Reinforced element for severe/dusty environments (Opt-HD). Often referred to as "Opt-HD Element" or "High-Dust Cartridge".
+FLT-X200-OLD,Discontinued Legacy Filter Element,COMP-HOUSING-01,SP-X200,Deprecated,Legacy element for early production lots. Deprecated and obsolete; superseded by FLT-X200-STD or FLT-X200-HD.

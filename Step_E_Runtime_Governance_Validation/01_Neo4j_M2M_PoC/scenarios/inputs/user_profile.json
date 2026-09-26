@@ -1,0 +1,8 @@
+{
+  "_meta": {
+    "role": "Operator"
+  },
+  "user_id": "OP-001",
+  "user_profile": "iirds:Operator",
+  "machine_variant": "ex:Variant/SP-X100"
+}

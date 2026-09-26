@@ -1,0 +1,32 @@
+{
+  "audit_target": "skos_concepts_sBOM.jsonld",
+  "timestamp": "2026-09-23T16:30:00Z",
+  "overall_status": "PASSED",
+  "confidence_score": 1.0,
+  "evaluated_nodes_count": 4,
+  "axis_breakdown": {
+    "schema_completeness": {
+      "score": 1.0,
+      "status": "PASSED",
+      "remarks": "Standard namespaces (skos, iirds, ex, ext) are fully declared in @context. All 4 records are valid typed skos:Concept instances."
+    },
+    "identifier_uniqueness": {
+      "score": 1.0,
+      "status": "PASSED",
+      "remarks": "Every concept IRI uniquely resolves using the ex:Part/{PartNumber} pattern. skos:broader correctly targets ex:Component/COMP-HOUSING-01 across all nodes."
+    },
+    "semantic_plausibility": {
+      "score": 1.0,
+      "status": "PASSED",
+      "remarks": "Extracted skos:altLabel values strictly correspond to terms and domain aliases grounded in Notes and PartName. No generative hallucination detected."
+    },
+    "business_rule_enforcement": {
+      "score": 1.0,
+      "status": "PASSED",
+      "remarks": "Deprecated part FLT-X200-OLD is strictly flagged with ext:isAvailable: false. Active parts are asserted as true. Variant references match sBOM specifications."
+    }
+  },
+  "critical_defects": [],
+  "warnings": [],
+  "audit_verdict": "Deterministic Pass 1 approval achieved. Zero human triage required; fully cleared for Step C integration and GraphDB ingestion."
+}

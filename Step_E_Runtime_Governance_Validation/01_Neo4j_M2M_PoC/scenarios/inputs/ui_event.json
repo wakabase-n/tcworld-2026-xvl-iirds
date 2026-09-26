@@ -1,0 +1,8 @@
+{
+  "_meta": {
+    "action": "Click: "Remove Housing Cover""
+  },
+  "action_type": "EXECUTE_STEP",
+  "current_step_id": "STEP-007",
+  "target_part_id": "COMP-HOUSING-01"
+}

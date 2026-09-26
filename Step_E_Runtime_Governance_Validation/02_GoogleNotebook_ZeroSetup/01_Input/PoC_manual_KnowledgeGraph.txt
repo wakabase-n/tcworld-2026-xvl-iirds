@@ -1,0 +1,163 @@
+[
+  {
+    "subject_id": "STEP-001",
+    "subject_label": "Prohibition of filter housing disassembly and element replacement by machine operators",
+    "predicate": "ex:isProhibited",
+    "object_id": null,
+    "object_label": "true"
+  },
+  {
+    "subject_id": "STEP-001",
+    "subject_label": "Prohibition of filter housing disassembly and element replacement by machine operators",
+    "predicate": "iirds:targets-component",
+    "object_id": "ex:Component/COMP-HOUSING-01",
+    "object_label": "Filter Housing"
+  },
+  {
+    "subject_id": "STEP-004",
+    "subject_label": "Visually inspect the perimeter of the filter housing indicated on the 3D monitoring display for external fluid leaks",
+    "predicate": "iirds:targets-component",
+    "object_id": "ex:Component/COMP-HOUSING-01",
+    "object_label": "Filter Housing"
+  },
+  {
+    "subject_id": "STEP-006",
+    "subject_label": "Connect the specialty wrench (TOOL-A) to the drain plug and safely discharge all residual hydraulic pressure",
+    "predicate": "ex:hasPhysicalState",
+    "object_id": null,
+    "object_label": "ValveStatus: Closed"
+  },
+  {
+    "subject_id": "STEP-006",
+    "subject_label": "Connect the specialty wrench (TOOL-A) to the drain plug and safely discharge all residual hydraulic pressure",
+    "predicate": "ex:hasPhysicalState",
+    "object_id": null,
+    "object_label": "OilTemperature <= 40°C"
+  },
+  {
+    "subject_id": "STEP-006",
+    "subject_label": "Connect the specialty wrench (TOOL-A) to the drain plug and safely discharge all residual hydraulic pressure",
+    "predicate": "ex:hasPhysicalState",
+    "object_id": null,
+    "object_label": "ResidualPressure <= 0.05 MPa"
+  },
+  {
+    "subject_id": "STEP-006",
+    "subject_label": "Connect the specialty wrench (TOOL-A) to the drain plug and safely discharge all residual hydraulic pressure",
+    "predicate": "iirds:has-tool",
+    "object_id": "TOOL-A",
+    "object_label": "Residual pressure release specialty wrench"
+  },
+  {
+    "subject_id": "STEP-006",
+    "subject_label": "Connect the specialty wrench (TOOL-A) to the drain plug and safely discharge all residual hydraulic pressure",
+    "predicate": "iirds:has-supply",
+    "object_id": null,
+    "object_label": "Heat- and oil-resistant protective gloves"
+  },
+  {
+    "subject_id": "STEP-006",
+    "subject_label": "Connect the specialty wrench (TOOL-A) to the drain plug and safely discharge all residual hydraulic pressure",
+    "predicate": "iirds:has-supply",
+    "object_id": null,
+    "object_label": "Safety glasses"
+  },
+  {
+    "subject_id": "STEP-007",
+    "subject_label": "Remove the access cover of the filter housing",
+    "predicate": "iirds:targets-component",
+    "object_id": "ex:Component/COMP-HOUSING-01",
+    "object_label": "Filter Housing"
+  },
+  {
+    "subject_id": "STEP-009",
+    "subject_label": "Install the verified compatible new filter cartridge",
+    "predicate": "iirds:targets-component",
+    "object_id": "ex:Component/COMP-HOUSING-01",
+    "object_label": "Filter Housing"
+  },
+  {
+    "subject_id": "STEP-009",
+    "subject_label": "Install the verified compatible new filter cartridge",
+    "predicate": "iirds:has-supply",
+    "object_id": "ex:Part/FLT-STD-01",
+    "object_label": "Standard Hydraulic Filter Element"
+  },
+  {
+    "subject_id": "ex:Part/FLT-STD-01",
+    "subject_label": "Standard Hydraulic Filter Element",
+    "predicate": "iirds:relates-to-product-variant",
+    "object_id": "ex:Variant/SP-X100",
+    "object_label": "SP-X100"
+  },
+  {
+    "subject_id": "ex:Part/FLT-STD-01",
+    "subject_label": "Standard Hydraulic Filter Element",
+    "predicate": "ex:hasAttribute",
+    "object_id": null,
+    "object_label": "STD"
+  },
+  {
+    "subject_id": "STEP-009",
+    "subject_label": "Install the verified compatible new filter cartridge",
+    "predicate": "iirds:has-supply",
+    "object_id": "ex:Part/FLT-X200-STD",
+    "object_label": "High-Flow Standard Filter Element for SP-X200"
+  },
+  {
+    "subject_id": "ex:Part/FLT-X200-STD",
+    "subject_label": "High-Flow Standard Filter Element for SP-X200",
+    "predicate": "iirds:relates-to-product-variant",
+    "object_id": "ex:Variant/SP-X200",
+    "object_label": "SP-X200"
+  },
+  {
+    "subject_id": "ex:Part/FLT-X200-STD",
+    "subject_label": "High-Flow Standard Filter Element for SP-X200",
+    "predicate": "ex:hasAttribute",
+    "object_id": null,
+    "object_label": "STD"
+  },
+  {
+    "subject_id": "STEP-009",
+    "subject_label": "Install the verified compatible new filter cartridge",
+    "predicate": "iirds:has-supply",
+    "object_id": "ex:Part/FLT-X200-HD",
+    "object_label": "Heavy-Duty Hydraulic Filter Element"
+  },
+  {
+    "subject_id": "ex:Part/FLT-X200-HD",
+    "subject_label": "Heavy-Duty Hydraulic Filter Element",
+    "predicate": "iirds:relates-to-product-variant",
+    "object_id": "ex:Variant/SP-X200",
+    "object_label": "SP-X200"
+  },
+  {
+    "subject_id": "ex:Part/FLT-X200-HD",
+    "subject_label": "Heavy-Duty Hydraulic Filter Element",
+    "predicate": "ex:hasAttribute",
+    "object_id": null,
+    "object_label": "Opt-HD"
+  },
+  {
+    "subject_id": "STEP-010",
+    "subject_label": "Securely torque the housing cover to the specified torque of 50 N·m",
+    "predicate": "iirds:targets-component",
+    "object_id": "ex:Component/COMP-HOUSING-01",
+    "object_label": "Filter Housing"
+  },
+  {
+    "subject_id": "STEP-010",
+    "subject_label": "Securely torque the housing cover to the specified torque of 50 N·m",
+    "predicate": "iirds:has-tool",
+    "object_id": null,
+    "object_label": "Calibrated torque wrench (rated for 50 N·m)"
+  },
+  {
+    "subject_id": null,
+    "subject_label": "Calibrated torque wrench (rated for 50 N·m)",
+    "predicate": "ex:hasAttribute",
+    "object_id": null,
+    "object_label": "50 N·m"
+  }
+]

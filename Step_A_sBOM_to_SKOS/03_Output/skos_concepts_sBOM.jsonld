@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "iirds": "http://iirds.tekom.de/iirds/1.0/core#",
+    "ext": "http://example.org/ext#",
+    "ex": "http://example.org/",
+    "skos:broader": {
+      "@type": "@id"
+    },
+    "skos:inScheme": {
+      "@type": "@id"
+    },
+    "iirds:ProductVariant": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "ex:Scheme/sBOM-Hydraulics",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": "sBOM-Hydraulics Concept Scheme"
+    },
+    {
+      "@id": "ex:Part/FLT-STD-01",
+      "@type": "skos:Concept",
+      "skos:inScheme": "ex:Scheme/sBOM-Hydraulics",
+      "skos:notation": "FLT-STD-01",
+      "skos:prefLabel": "Standard Hydraulic Filter Element",
+      "skos:altLabel": [
+        "Standard Filter Element",
+        "SP-X100 Standard Model Filter Element"
+      ],
+      "skos:broader": "ex:Component/COMP-HOUSING-01",
+      "iirds:ProductVariant": "ex:Variant/SP-X100",
+      "ext:optionCode": "STD",
+      "ext:lifecycleStatus": "Active"
+    },
+    {
+      "@id": "ex:Part/FLT-X200-STD",
+      "@type": "skos:Concept",
+      "skos:inScheme": "ex:Scheme/sBOM-Hydraulics",
+      "skos:notation": "FLT-X200-STD",
+      "skos:prefLabel": "Standard Filter Element for SP-X200",
+      "skos:altLabel": [
+        "Standard Filter Element",
+        "SP-X200 Standard Specification Element"
+      ],
+      "skos:broader": "ex:Component/COMP-HOUSING-01",
+      "iirds:ProductVariant": "ex:Variant/SP-X200",
+      "ext:optionCode": "STD",
+      "ext:lifecycleStatus": "Active"
+    },
+    {
+      "@id": "ex:Part/FLT-X200-HD",
+      "@type": "skos:Concept",
+      "skos:inScheme": "ex:Scheme/sBOM-Hydraulics",
+      "skos:notation": "FLT-X200-HD",
+      "skos:prefLabel": "Heavy-Duty Hydraulic Filter Element",
+      "skos:altLabel": [
+        "Heavy-Duty Filter Element",
+        "Opt-HD Cartridge",
+        "Severe Environment Option Element"
+      ],
+      "skos:broader": "ex:Component/COMP-HOUSING-01",
+      "iirds:ProductVariant": "ex:Variant/SP-X200",
+      "ext:optionCode": "Opt-HD",
+      "ext:lifecycleStatus": "Active"
+    },
+    {
+      "@id": "ex:Part/FLT-X200-OLD",
+      "@type": "skos:Concept",
+      "skos:inScheme": "ex:Scheme/sBOM-Hydraulics",
+      "skos:notation": "FLT-X200-OLD",
+      "skos:prefLabel": "Legacy Hydraulic Filter Element",
+      "skos:altLabel": [
+        "Legacy Filter Element",
+        "Discontinued Legacy Part"
+      ],
+      "skos:broader": "ex:Component/COMP-HOUSING-01",
+      "iirds:ProductVariant": "ex:Variant/SP-X200",
+      "ext:optionCode": "STD",
+      "ext:lifecycleStatus": "Deprecated",
+      "ext:isAvailable": false
+    }
+  ]
+}

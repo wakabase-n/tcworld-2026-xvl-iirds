@@ -1,0 +1,15 @@
+============================================================
+[ PASS ] poc1_unauthorized_role
+         Actual  : Permitted=False, Code=ERR_UNAUTHORIZED_ROLE
+[ PASS ] poc2_pressure_interlock
+         Actual  : Permitted=False, Code=ERR_PRESSURE_REMAINING
+[ PASS ] poc3_normal_success
+         Actual  : Permitted=True, Code=SUCCESS
+[ PASS ] poc4_variant_parts
+         Actual  : Permitted=True, Code=MATCH_VARIANT_PART
+[ PASS ] poc5_required_tools
+         Actual  : Permitted=True, Code=SUPPLIES_READY
+[ PASS ] poc6_multi_interlock
+         Actual  : Permitted=False, Code=ERR_MULTIPLE_PHYSICAL_STATES
+============================================================
+Results: 6/6 PASSED

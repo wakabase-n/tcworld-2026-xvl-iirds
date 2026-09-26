@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "scenario": "PoC1: Unauthorized Operation Lockout (Role Entitlement Gate)",
+    "note": "Disassembly Request by Operator"
+  },
+  "engine_running": false,
+  "hydraulic_pressure_mpa": 0.0,
+  "oil_temperature_c": 30.0,
+  "valve_status": "Closed"
+}

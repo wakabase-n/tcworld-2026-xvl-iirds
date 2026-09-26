@@ -1,0 +1,142 @@
+{
+  "audit_metadata": {
+    "step": "Step B (Manual to iiRDS Atomic Steps)",
+    "total_source_chapters": 2,
+    "generated_atomic_steps": 10,
+    "safety_critical_issues_found": 0,
+    "overall_confidence_score": 1.0
+  },
+  "step_audits": [
+    {
+      "step_id": "STEP-001",
+      "target_audience": "iirds:Operator",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-002",
+      "target_audience": "iirds:Operator",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-003",
+      "target_audience": "iirds:Operator",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-004",
+      "target_audience": "iirds:Operator",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-005",
+      "target_audience": "iirds:Operator",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-006",
+      "target_audience": "iirds:ServiceTechnician",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-007",
+      "target_audience": "iirds:ServiceTechnician",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-008",
+      "target_audience": "iirds:ServiceTechnician",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-009",
+      "target_audience": "iirds:ServiceTechnician",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    },
+    {
+      "step_id": "STEP-010",
+      "target_audience": "iirds:ServiceTechnician",
+      "confidence_score": 1.0,
+      "status": "PASSED",
+      "checks": {
+        "audience_accuracy": "PASSED",
+        "physical_state_extraction": "PASSED",
+        "prohibited_action_logic": "PASSED",
+        "atomic_granularity": "PASSED"
+      },
+      "issues": []
+    }
+  ],
+  "discrepancies_and_warnings": []
+}
