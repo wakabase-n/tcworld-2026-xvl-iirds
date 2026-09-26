@@ -6,6 +6,7 @@ This repository provides the reference implementation for an end-to-end data pip
 
 This work directly accompanies the technical article series published in _tcworld online magazine_ (2026) and the presentation at _tcworld conference 2026_ (Stuttgart, Germany).
 
+
 ## 1. Overview and Architecture: Transforming Manuals from "Passive Documents" into "Executable Control Engines"
 
 In maintenance and field service operations, role-based access control (differentiating operators from qualified service engineers) and active physical interlocks (e.g., preventing disassembly during high-temperature or residual-pressure states) are safety-critical imperatives.
@@ -17,7 +18,8 @@ This project resolves this fundamental friction by establishing a **deterministi
 1. **M2M (Machine-to-Machine) Deterministic Control**: Graph-native pattern traversal via Neo4j and Cypher, returning single-millisecond boolean and status signals (Validated: **6/6 PASSED**).
 2. **HMI (Human-Machine Interface) Dynamic Guidance**: A zero-setup, zero-hallucination interactive playground powered by Google Notebook (formerly NotebookLM), leveraging structural graph guardrails for conversational verification (Validated: **10/10 PASSED**).
 
-![](Pasted%20image%2020260926103913.png)
+<img width="1252" height="921" alt="image" src="https://github.com/user-attachments/assets/b13b0a3e-cb12-48eb-97fb-a4aa6a1dffd0" />
+
 
 ## 2. Repository Layout
 
@@ -61,6 +63,7 @@ The pipeline is organized into two stages: **Knowledge Pipeline & Foundation (St
         ├── docs/                        # Complete transcripts of all 10 verified test cases
         └── README.md
 ```
+
 
 ## 3. End-to-End Pipeline Overview
 
@@ -112,6 +115,7 @@ _Benchmark Result:_ **10/10 PASSED**
 - **Complete Hallucination Suppression:** Rejects procedures and unverified substitute tooling (e.g., standard adjustable wrenches) described in narrative prose if explicit graph relationships do not exist in the triple dataset (Cases 1-2, 4-1, 4-2).
 - **Dynamic Sensor Evaluation:** Evaluates natural language telemetry inputs (e.g., "current temperature is 55°C, pressure is 0.02 MPa") as dynamic conditional statements, identifying temperature threshold violations and withholding clearance (Cases 6-1 through 6-3).
 
+
 ## 4. Verification and Reproduction
 
 ### Track A: Zero-Setup Interactive Verification (Recommended)
@@ -139,8 +143,9 @@ Access the deterministic execution scripts and batch runner configured for integ
     - APOC and neosemantics (n10s) plugins enabled
     - Active Bolt protocol endpoint (Port 7687)
     - Python virtual environment configured with the official `neo4j` driver
-## 5. References and Conference Presentations
 
+
+## 5. References and Conference Presentations
 
 ### LinkedIn Technical Series
 
@@ -167,3 +172,52 @@ For architectural rationales, theoretical foundations, and implementation method
     -  **[26-SSD01] Synchronizing 3D Geometry with Technical Knowledge: Breathing New Life into Static Documentation**
        _Transforming Content into Actionable Field Data via XVL and iiRDS Integration_ [https://jtca.org/sessions/2026/37829/](https://jtca.org/sessions/2026/37829/?utm_source=gemini)
    
+
+## 🏷️ Trademarks & Acknowledgments
+
+- **Project Collaboration:** The proof-of-concept and architectural implementations presented in this repository were conducted in close collaboration with **Lattice Technology Co., Ltd.**, who provided the foundational XVL 3D lightweight models and technical domain insights.
+- **About XVL:** XVL is a 3D lightweight data technology developed by Lattice Technology Co., Ltd. with world-class 3D performance. XVL is a registered trademark of Lattice Technology Co., Ltd.
+## 📜 License & Citation
+
+This repository, along with all its structural assets, prompts, ontology models, Cypher scripts, and sample verification payloads, is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+---
+
+### 🚀 Hands-on Sandbox Policy: Feel Free to Clone and Experiment!
+
+We enthusiastically encourage engineers, information architects, researchers, and technical communicators to freely clone, adapt, and run these assets within your local development sandboxes and research environments. 
+
+If this end-to-end implementation helps advance your practical understanding of **iiRDS**, **W3C SKOS**, **3D-driven technical documentation (XVL)**, and **GraphRAG governance**, this repository has achieved its primary goal. Concrete prototyping is the fastest path toward next-generation intelligent information architectures.
+
+---
+
+### ⚠️ Critical Disclaimer for Industrial and Commercial Deployment
+
+While local experimentation and educational research are fully encouraged, please note that all datasets, graph bindings, and Cypher evaluation rules in this repository are provided **strictly as proof-of-concept (PoC) references**. They are constructed to demonstrate architectural feasibility with deep respect for:
+- The **iiRDS Standard** managed by the [iiRDS Consortium / tekom](https://iirds.org/).
+- The **W3C SKOS (Simple Knowledge Organization System)** recommendation.
+- 3D manufacturing communication architectures utilizing lightweight 3D formats (such as XVL).
+
+If your organization intends to engineer or deploy 3D-integrated knowledge graphs, automated interlocks, or digital twins in production, commercial, or safety-critical industrial environments, you must:
+
+1. **Consult Official Specifications:** Always refer to the definitive standards, schemas, and governance rules published by the official standards bodies.
+2. **Architect Independent Safety Interlocks:** Do not copy-paste these sample SP-X series payloads, threshold values (e.g., pressure, temperature limits), or graph traversal queries directly into production machinery. Safety-critical interlocks must always be engineered and validated in accordance with rigorous product safety regulations, ISO/IEC standards, and institutional product liability (PL) compliance protocols.
+3. **No Warranty:** This software and documentation are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or operational safety.
+
+---
+
+### 📖 How to Cite
+
+If you reference, build upon, or utilize this architecture in your research, academic publications, or conference presentations, please use the following citation format:
+
+```bibtex
+@misc{wakabayashi2026_xvl_iirds,
+  author       = {Natsuki Wakabayashi},
+  title        = {Bridging 3D Geometry and Standardized Knowledge Graphs: Deterministic Safety Interlocks and Dynamic Guidance via XVL and iiRDS},
+  year         = {2026},
+  publisher    = {GitHub},
+  howpublished = {\url{[https://github.com/wakabase-n/tcworld-2026-xvl-iirds](https://github.com/wakabase-n/tcworld-2026-xvl-iirds)}},
+  note         = {Presented at tcworld conference 2026 / JTCA TC Symposium 2026}
+}
