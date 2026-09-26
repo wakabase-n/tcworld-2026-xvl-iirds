@@ -96,3 +96,7 @@ This architecture incorporates a **Human-in-the-Loop (HITL) triage model** trigg
 - **Pass 3 (Deterministic Rejection & Self-Correction):** Score < 0.70 or critical constraint violations (e.g., missing primary keys or malformed IRIs). The payload is immediately rejected, and validation errors are fed back to the LLM agent for automated re-generation.
 
 By operationalizing this automated quality gate, enterprises can reduce manual verification overhead by over 80% while upholding strict data integrity across the global digital thread.
+
+---
+Copyright (c) 2026 Natsuki Wakabayashi/ISE.
+Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
