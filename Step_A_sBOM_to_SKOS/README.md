@@ -98,5 +98,8 @@ This architecture incorporates a **Human-in-the-Loop (HITL) triage model** trigg
 By operationalizing this automated quality gate, enterprises can reduce manual verification overhead by over 80% while upholding strict data integrity across the global digital thread.
 
 ---
+### 📜 License & Intellectual Property Notice
+All inputs, prompt templates, generated outputs, and audit artifacts within this directory (`Step_A_sBOM_to_SKOS/`) are authored by Natsuki Wakabayashi and licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
 Copyright (c) 2026 Natsuki Wakabayashi/ISE.
-Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
