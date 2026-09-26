@@ -109,5 +109,8 @@ Engineered for production enterprise DataOps, the independent quality audit syst
 In alignment with the governance model established in Step A, only atomic datasets securing a **1.0 audit score** pass automatically to Step C (Knowledge Graph Integration). Sub-threshold scores or syntax anomalies trigger immediate routing to Technical Communicator review queues, enforcing enterprise-grade information provenance.
 
 ---
+
+### 📜 License & Intellectual Property Notice
+All inputs, prompt templates, generated outputs, and audit artifacts within this directory (`Step_B_Manual_to_iiRDS/`) are authored by Natsuki Wakabayashi and licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
 Copyright (c) 2026 Natsuki Wakabayashi/ISE.
-Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
