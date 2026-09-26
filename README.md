@@ -221,3 +221,7 @@ If you reference, build upon, or utilize this architecture in your research, aca
 　howpublished = {\url{https://github.com/wakabase-n/tcworld-2026-xvl-iirds}},
   note         = {Presented at tcworld conference 2026 / JTCA TC Symposium 2026}
 }
+
+---
+Copyright (c) 2026 Natsuki Wakabayashi/ISE.
+Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
