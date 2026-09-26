@@ -90,7 +90,7 @@ The pipeline is organized into two stages: **Knowledge Pipeline & Foundation (St
 ### Part 2: Runtime Governance Validation (Step E)
 
 The unified graph substrate is subjected to rigorous validation across two operational paradigms:
-#### 1. M2M Deterministic Execution (Neo4j / Cypher)
+#### 1. [M2M Deterministic Execution (Neo4j / Cypher)](./Step_E_Runtime_Governance_Validation/01_Neo4j_M2M_PoC/)
 Evaluates dynamic inputs across three decoupled telemetry streams (live IoT sensor states, UI viewport picking events, and user entitlement profiles). Cypher pattern traversals execute all safety, variant, and authorization logic without application-level if-statements.
 
 _Batch Test Result:_ **6/6 PASSED**
@@ -107,7 +107,7 @@ _Batch Test Result:_ **6/6 PASSED**
     - **PoC5 (Prerequisite Tooling & PPE Gate):** Validates mandatory specialty tools (`TOOL-A`) and personal protective equipment prior to task initiation.
     - **PoC6 (Compound Physical Interlock):** Identifies multiple hazard states concurrently (0.5 MPa pressure and 65°C oil temperature), generating an aggregate safety override (`ERR_MULTIPLE_PHYSICAL_STATES`).
 
-#### 2. Zero-Setup Conversational Verification (Google Notebook / GraphRAG)
+#### 2. [Zero-Setup Conversational Verification (Google Notebook / GraphRAG)](./Step_E_Runtime_Governance_Validation/02_GoogleNotebook_ZeroSetup/)
 Provides browser-native reproduction of conversational governance without requiring local database or runtime infrastructure.
 
 _Benchmark Result:_ **10/10 PASSED**
