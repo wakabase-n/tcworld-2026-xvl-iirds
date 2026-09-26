@@ -21,7 +21,7 @@ Neo4j was selected as the operational graph database for three primary reasons:
 
 Representing cyber-physical relationships in technical documentation requires moving away from tabular relational architectures toward native graph storage.
 
-![](Pasted%20image%2020260926101840.png)
+<img width="1606" height="825" alt="image" src="https://github.com/user-attachments/assets/e5d8a33e-2a0b-4b51-a433-1fc6fe96825e" />
 
 ### ① Multi-Table JOIN Latency vs. Index-Free Adjacency
 - **Relational Databases (RDBMS):**
@@ -65,7 +65,7 @@ Step_D_Graph_Engine_Setup/
 
 ## 4. Deployment Pipeline (2-Phase Architecture)
 
-![](Pasted%20image%2020260926102118.png)
+<img width="1158" height="917" alt="image" src="https://github.com/user-attachments/assets/ce3a9559-0390-47f5-9d85-c201f21500b9" />
 
 
 ### Phase 1: Deploying the Standard Ontology Layer (TBox)
