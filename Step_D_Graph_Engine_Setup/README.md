@@ -121,3 +121,7 @@ Completion of this stage establishes:
 The knowledge graph is now fully prepared to evaluate incoming sensor states and UI interactions.
 
 Proceed to **Step E: Runtime Governance Validation** to review deterministic M2M batch execution logs (Step E-1) and interactive Google Notebook conversational verification (Step E-2).
+
+---
+Copyright (c) 2026 Natsuki Wakabayashi/ISE.
+Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
