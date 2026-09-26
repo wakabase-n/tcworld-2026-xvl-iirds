@@ -111,5 +111,8 @@ Responses are formatted as lightweight, schema-consistent JSON objects ready for
 Front-end Web3D viewports consume the returned component identifiers and action tokens directly via JavaScript APIs, driving part highlighting, flashing alerts, and camera trajectories without intermediate translation layers.
 
 ---
+
+### 📜 License & Intellectual Property Notice
+All inputs, prompt templates, generated outputs, and audit artifacts within this directory (`01_Neo4j_M2M_PoC/`) are authored by Natsuki Wakabayashi and licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
 Copyright (c) 2026 Natsuki Wakabayashi/ISE.
-Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
