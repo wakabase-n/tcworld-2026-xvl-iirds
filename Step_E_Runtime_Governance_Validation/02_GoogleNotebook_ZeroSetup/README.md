@@ -75,5 +75,8 @@ A single knowledge graph substrate serves both deterministic machine automation 
 <img width="1565" height="576" alt="image" src="https://github.com/user-attachments/assets/3c1c5f8f-43fb-4619-8f04-f7302bb4a488" />
 
 ---
+
+### 📜 License & Intellectual Property Notice
+All inputs, prompt templates, generated outputs, and audit artifacts within this directory (`02_GoogleNotebook_ZeroSetup/`) are authored by Natsuki Wakabayashi and licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
 Copyright (c) 2026 Natsuki Wakabayashi/ISE.
-Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
