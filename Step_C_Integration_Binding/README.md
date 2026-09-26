@@ -108,3 +108,7 @@ Every phase achieved a verified audit score of **1.0**, establishing a validated
 
 In **Step D (Neo4j Graph Database Deployment)**, this dataset is ingested alongside formal iiRDS and SKOS ontologies to configure the real-time graph traversal engine.
 
+---
+Copyright (c) 2026 Natsuki Wakabayashi/ISE.
+Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
