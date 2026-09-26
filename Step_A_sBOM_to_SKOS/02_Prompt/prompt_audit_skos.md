@@ -48,3 +48,8 @@ Return a single JSON object structured as follows:
   "warnings": [],
   "audit_verdict": "Full autonomous approval (Pass 1)."
 }
+
+<!--
+Copyright (c) 2026 Natsuki Wakabayashi/ISE.
+Licensed under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
+-->
