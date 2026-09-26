@@ -41,3 +41,9 @@ Map each record of the CSV input according to the following ontological definiti
   - `ex`: `http://example.com/project/`
   - `ext`: `http://example.com/project/extension#`
 - Compile all concepts under the top-level `@graph` array.
+
+
+<!--
+Copyright (c) 2026 Natsuki Wakabayashi/ISE.
+Licensed under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
+-->
