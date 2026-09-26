@@ -109,3 +109,7 @@ During hazard states (e.g., residual line pressure in PoC2 or combined thermal/p
 Responses are formatted as lightweight, schema-consistent JSON objects ready for client consumption via WebSocket or REST endpoints.
 
 Front-end Web3D viewports consume the returned component identifiers and action tokens directly via JavaScript APIs, driving part highlighting, flashing alerts, and camera trajectories without intermediate translation layers.
+
+---
+Copyright (c) 2026 Natsuki Wakabayashi/ISE.
+Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
