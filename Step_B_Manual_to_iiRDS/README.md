@@ -107,3 +107,7 @@ Engineered for production enterprise DataOps, the independent quality audit syst
 
 ### Human-in-the-Loop Workflow Integration
 In alignment with the governance model established in Step A, only atomic datasets securing a **1.0 audit score** pass automatically to Step C (Knowledge Graph Integration). Sub-threshold scores or syntax anomalies trigger immediate routing to Technical Communicator review queues, enforcing enterprise-grade information provenance.
+
+---
+Copyright (c) 2026 Natsuki Wakabayashi/ISE.
+Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
